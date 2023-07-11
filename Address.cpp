@@ -11,13 +11,24 @@ void Address::updateAdress()
 	cout << "Enter Zipcode: ";
 	cin >> m_zipCode;
 	cin.ignore(80, '\n');
+	while (m_zipCode <= 0)
+	{
+		if (cin.fail())
+		{
+			cin.clear(); // reset failbit
+			cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //skip bad input
+			m_zipCode = 0;
+		}
+		cout << "The Number of Zipcode is not correct. Choose again: ";
+		cin >> m_zipCode;
+	}
 	cout << "Complete update Address." << endl;
 }
 void Address::printAdress()
 {
 	cout << "Address:  " << endl;
-	cout << "   1. Street:   " << m_street << endl;
-	cout << "   2. City:     " << m_city << endl;
-	cout << "   3. Country:  " << m_country << endl;
-	cout << "   4. Zipcode:  " << m_zipCode << endl;
+	cout << "    Street:   " << m_street << endl;
+	cout << "    City:     " << m_city << endl;
+	cout << "    Country:  " << m_country << endl;
+	cout << "    Zipcode:  " << m_zipCode << endl;
 }

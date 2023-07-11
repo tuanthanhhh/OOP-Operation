@@ -11,7 +11,9 @@ protected:
 	string m_email;
 	Address address;
 public:
+	virtual void printInfoDetail();
+	virtual void updateInfoDetail();
 	void printInfo();
 	void updateInfo();
-	string getJob();
+	virtual string getJob()=0;
 };

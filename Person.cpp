@@ -2,9 +2,9 @@
 void Person:: printInfo()
 {
 	cout << "Information:    " << endl;
-	cout << "    1. Name:    " << m_name << endl;
-	cout << "    2. Phone:   " << m_phone << endl;
-	cout << "    3. Email:   " << m_email << endl;
+	cout << "     Name:    " << m_name << endl;
+	cout << "     Phone:   " << m_phone << endl;
+	cout << "     Email:   " << m_email << endl;
 	address.printAdress();
 }
 void Person:: updateInfo()
@@ -18,4 +18,13 @@ void Person:: updateInfo()
 	address.updateAdress();
 	cout << "Complete update informatione" << endl;
 }
-virtual string getJob();
+
+void Person:: printInfoDetail()
+{
+
+}
+void Person:: updateInfoDetail()
+{
+
+}
+string getJob();

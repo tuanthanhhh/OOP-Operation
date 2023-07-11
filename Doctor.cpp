@@ -2,8 +2,8 @@
 
 void Doctor::printInfoDetail()
 {
-	cout << "    4. Major:  " << m_major << endl;
-	cout << "    5. Experience:       " << m_experience << endl;
+	cout << "     Major:  " << m_major << endl;
+	cout << "     Experience:       " << m_experience << endl;
 }
 void Doctor::updateInfoDetail()
 {
