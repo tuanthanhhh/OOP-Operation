@@ -1,0 +1,6 @@
+﻿  Doctor.cpp
+  Person.cpp
+C:\Users\ThanhLT\source\repos\OOP Operations\OOP Operations\Person.cpp(21,16): error C2575: 'getJob': only member functions and bases can be virtual
+  Student.cpp
+  main.cpp
+  Generating Code...
