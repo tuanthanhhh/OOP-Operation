@@ -1,0 +1,5 @@
+﻿  Student.cpp
+  main.cpp
+C:\Users\ThanhLT\source\repos\OOP Operations\OOP Operations\main.cpp(63,20): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  OOP Operations.vcxproj -> C:\Users\ThanhLT\source\repos\OOP Operations\Debug\OOP Operations.exe
